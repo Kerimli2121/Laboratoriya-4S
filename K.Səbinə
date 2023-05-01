@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "x=\"Sabr\"\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 73,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Sabr\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'str'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=21\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "21\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'int'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=21.12\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "21.12\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'float'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x= 12j\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "12j\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'complex'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=[ \"hava\" , \"od\" ,\"su\", \"torpaq\" ]\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "['hava', 'od', 'su', 'torpaq']\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'list'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=( \"Sebine\",\"Kerimli\" )\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "('Sebine', 'Kerimli')\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'tuple'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=range(21)\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "range(0, 21)\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'range'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=True\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "True\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(x))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'bool'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=\"365\"\nb=\"Gün\"\nprint(a)\nprint(b)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 43,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "365\nGün\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(a))\nprint(type(b))      ",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'str'>\n<class 'str'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x= \"Sebine\"\nprint( \" Python is \" +  x )\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 49,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": " Python is Sebine\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=20\nb=30\nprint(a+b)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 54,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "50\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=20\nb=30\nprint(a*b)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 57,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "600\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=20\na +=30\nprint(a)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 59,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "50\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=50\nb=70\nprint(a<b)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 60,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "True\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=25\nprint(a>20 and a<50)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 61,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "True\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=50\nb=80\nif b>a:\n print(\"b is greater than a\")",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 69,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "b is greater than a\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a=50\nb=45\nif b>a:\n    print(\"b is greater than a\")\nelif a>b:\n    print(\"a is greater than b\")",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 72,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "a is greater than b\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
